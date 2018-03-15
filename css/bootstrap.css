@@ -9062,15 +9062,61 @@ p{
 }
 
 
-.pembuatan
-  h1{
-    font-family: 
-  }
-  h2{
+.pembuatan{
 
-  }
-  p{
+}
 
+  .parallax {
+             /* Set a specific height */
+         height: 700px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+       }
+  .judul {
+         position: absolute;
+         left: 0;
+         top: 50%;
+         width: 100%;
+         text-align: center;
+         font-family: arial; 
+         }
+  .judul span.border {
+         background-color: #e6ffff;
+         color: #000000;
+         padding: 18px;
+         font-size: 30px;
+         font-variant: small-caps;  
+         letter-spacing: 10px;
+         }      
+  .jumbotron {background-color: #e6ffff}
+  .display-4 {text-align: center; font-family: arial;}
+  .text{text-align: justify;}
+  .h1{
+    font-variant: small-caps;
+    text-align: center;
   }
+  .h2{font-variant: small-caps;}
+
+  .judul1{
+         position: absolute;
+         left: 0;
+         top: 50%;
+         width: 100%;
+         text-align: center;
+         font-family: arial; 
+         }
+
+  .judul1 span.border {
+         background-color: #0033cc;
+         color: #000000;
+         padding: 18px;
+         font-size: 30px;
+         font-variant: small-caps;  
+         letter-spacing: 10px;
+         }      
+
 
 /*# sourceMappingURL=bootstrap.css.map */
