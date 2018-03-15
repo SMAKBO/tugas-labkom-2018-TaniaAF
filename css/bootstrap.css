@@ -9035,8 +9035,16 @@ h3{
   color: #005c99;
   margin-left: 1cm;
   margin-right: 1cm;
-
 }
+
+h4{
+  font-family: arial;
+  font-size: 30px;
+  color:#003366;
+  margin-left: 1cm;
+  margin-right: 1cm
+}
+
 
 p{
   font-family: arial;
@@ -9045,6 +9053,14 @@ p{
   margin-left: 1cm;
   margin-right: 1cm;
 }
+
+.img1{ float:right; width: 30%;padding-left: 10px
+
+}
+.img2{ float:left;width: 30%; padding-right:10px;
+
+}
+
 
 .pembuatan
   h1{
@@ -9056,6 +9072,5 @@ p{
   p{
 
   }
-  
 
 /*# sourceMappingURL=bootstrap.css.map */
