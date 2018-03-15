@@ -5,14 +5,13 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 
-<body style="background-image: url(img/food.jpg);background-size: 200%">
+<body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	<img src="img/logo.png" style="width: 5%">
   <a class="navbar-brand" href="#"> Fatty Acid</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -30,46 +29,66 @@
 
 <nav>
 	<div class="jumbotron" style="background-image: url(img/food.jpeg); background-size: 100%">
-  <h1 style="background-color: white" class="display-4"><b>HELLO, CHEMIST!</b></h1>
-  <p style="background-color: white;  class="lead"><b>We will serve you with all about fatty acid. wanna know more? Explore our page</b></p>
+  <h1 class="display-4"><b>HELLO, CHEMIST!</b></h1>
+  <p class="lead"><b>We will serve you with all about fatty acid. wanna know more? Explore our page</b></p>
   <hr class="my-4">
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Explore us!</a>
+    <a class="btn btn-primary btn-lg" href="article.html" role="button">Explore us!</a>
   </p>
 </div>
+</nav>
+
+<div class="container">
 <hr>
-<h1>OUR ARTICLES</h1>
+<h1>Our Articles</h1>
 <hr>
-<div class="card-deck" style="margin-right: 1cm;margin-left: 1cm">
-  <div class="card border-dark mb-3">
-    <img class="card-img-top" src="img/definisi.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">DEFINITION AND STRUCTURE OF FATTY ACID</h5>
-      <p class="card-text">In chemistry, particularly in biochemistry, a fatty acid is a carboxylic acid with a long aliphatic chain which is either saturated or unsaturated. Most naturally occurring fatty acids have an unbranched chain of an even number of carbon atoms, from 4 to 28. Fatty acids are usually derived from triglycerides.....</p>
-      <a href="definisi.html" class="btn btn-dark">Read More</a>
-    </div>
-  </div>
-  <div class="card border-dark mb-3">
-    <img class="card-img-top" src="img/chem.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">PROPERTIES OF FATTY ACID</h5>
-      <p class="card-text">Physical Properties</p>
-      <p class="card-text">1. Fats and fatty acids are soluble in organic solvents, such as petroleum ether, benzene and chloroform. They are insoluble in water.....</p>
-      <a href="sifat.html" class="btn btn-dark">Read More</a>
-    </div>
-  </div>
-  <div class="card border-dark mb-3">
-    <img class="card-img-top" src="img/fatty.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">THE BENEFITS OF FATTY ACIDS</h5>
-      <p class="card-text">Fats (fatty acids) fall into two main groups – saturated and unsaturated – based on their chemistry. There are three major classes of unsaturated fatty acids: omega-3, omega-6 and omega-9. The omega-6s and omega-3s are essential.....</p>
-      <a href="kegunaan.html" class="btn btn-dark">Read More</a>
-    </div>
-  </div>
-</div>						  
-<a><button href="article.html" type="button" class="btn btn-secondary btn-lg btn-block">More Articles</button></a>
+<div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/home1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">DEFINITION AND STRUCTURE OF FATTY ACID</h2>
+              <p class="card-text">In chemistry, particularly in biochemistry, a fatty acid is a carboxylic acid with a long aliphatic chain which is either saturated .....</p>
+            </div>
+            <div class="card-footer">
+              <a href="definisi.html" class="btn btn-primary">More Info</a>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/home2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">CHEMICAL PROPERTIES OF FATTY ACID</h2>
+              <p class="card-text">1. Hydrolysis</p>
+              <p class="card-text">Fats undergo hydrolysis when treated with mineral acids, the alkalies or fat splitting.....</p>
+            </div>
+            <div class="card-footer">
+              <a href="sifat_kimia.html" class="btn btn-primary">More Info</a>
+            </div>
+          </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/home3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">BENEFITS OF FATTY ACID</h2>
+              <p class="card-text">Fats (fatty acids) fall into two main groups – saturated and unsaturated – based on their chemistry. There are three major classes of unsaturated fatty acids.....</p>
+            </div>
+            <div class="card-footer">
+              <a href="kegunaan.html" class="btn btn-primary">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+<a href="article.html" class="btn btn-secondary btn-lg active btn-block" role="button" aria-pressed="true">More Articles</a>
 <hr>
-<footer>
+</div>
+
+<footer class="footer text-center">
   <div class="navbar navbar-expand-lg navbar-dark bg-dark">
     <p style="color: white">
       &#169;Copyright Fatty Acid, Powered by
