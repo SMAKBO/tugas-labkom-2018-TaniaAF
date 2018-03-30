@@ -9118,5 +9118,15 @@ p{
          letter-spacing: 10px;
          }      
 
+.gambarjudul
+img {
+  width: 100%;
+  text-align: center;
+}
 
+.gambar
+img{
+  width: 50%;
+  text-align: center;
+}
 /*# sourceMappingURL=bootstrap.css.map */
